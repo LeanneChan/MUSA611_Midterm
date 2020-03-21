@@ -1,4 +1,6 @@
 # MUSA611 Midterm
+Chan, Lin-En Leanne
+Student ID: 47188003
 
 ## Introduction
 
