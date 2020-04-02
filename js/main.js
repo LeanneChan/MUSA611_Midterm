@@ -1,4 +1,5 @@
 // Add the Map
+
 var map = L.map('map', {
   center: [1.344896, 103.8],
   zoom: 11
@@ -11,6 +12,13 @@ var Stamen_TonerLite = L.tileLayer('http://{s}.basemaps.cartocdn.com/light_all/{
   maxZoom: 20,
   ext: 'png'
 }).addTo(map);
+
+
+var myMarkers=makeMarkers(ewaste);
+console.log(myMarkers)
+
+plotMarkers(myMarkers)
+
 
 
 
