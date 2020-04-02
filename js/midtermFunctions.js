@@ -49,15 +49,16 @@ var create_marker = function(row){
     var lng=row.geometry.coordinates[0];
     var label=row.properties.Name;
     var buildingName = row.properties.ADDRESSBUILDINGNAME;
-    var color='#FF0000'; // for other s
-    if (label[0]=='R'){
-      color = '#0000FF';
+    if (label=="RENEW (Recycling Nation's Electronic Waste)"){
+      var color = '#77B2A5';
     } else if (label=='Singtel x SingPost ReCYCLE') {
-      color = '#00FF00';
-    }else if(label='E-waste Recycling@North East'){
-    	color='#FFFF00'
+      var color = '#04403F';
+    }else if(label=='E-waste Recycling@North East'){
+    	var color='#B4C248'
+    }else{
+      var color='#F39972'
     };
-    var pathOpts = {'radius': 5, 'fillColor': color};
+    var pathOpts = {'radius': 5, 'fillColor': color, 'fillOpacity':0.8, 'stroke': false};
     var marker = L.circleMarker([lat, lng], pathOpts).bindPopup("<b>Name: </b>"+label+"</br> <b>Building: </b>"+buildingName);
     return marker;
 }

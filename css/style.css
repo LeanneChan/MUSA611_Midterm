@@ -21,14 +21,29 @@ p.main {
 
 
 button {
-  background-color: #A9D4C3; 
-  border: none;
+  background-color: #CC3798; 
+  border-radius: 5px;
   color: black;
   padding: 7px 15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+}
+
+#ewasteButton{
+  background-color: #77B2A5;
+}
+#cashButton{
+  background-color: #04403F;
+  color: white;
+}
+#lightButton{
+  background-color: #B4C248;
+}
+#othersButton{
+  background-color:#F39972;
+  cursor: not-allowed;
 }
 
 .map {
