@@ -42,7 +42,8 @@ var CBD={slideNumber:4,
 	x:1.285802,
 	y:103.851684,
 	zoom:13,
-	description: "Recycling points for electronic waste in the Central Business District. " + descriptionAll,
+	description: "Recycling points for electronic waste in the Central Business District. ",
+	description2: descriptionAll,
 }
 
 var slides = [Intro, Renew, Singtel, NE, CBD]
