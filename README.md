@@ -6,7 +6,7 @@ Access website here: https://leannechan.github.io/MUSA611_Midterm/
 
 ## Introduction
 
-The purpose of this project is to make it easier for Singaporeans to locate nearest recycling locations, in an effort to encourage more recycling. The resulting site consists of 5 slide decks with various types of recycling collection points in Singapore. The first and last slides serve as overviews. The slides allow the user to filter the points by street name. 
+The purpose of this project is to make it easier for Singaporeans to locate nearest e-waste recycling locations, in an effort to encourage more recycling. The resulting site consists of 5 slide decks with various types of programmes for e-waste collection points in Singapore. The first and last slides serve as overviews. 
 
 
 ### Data
