@@ -26,7 +26,8 @@ The data is downloaded from data.gov.sg.
 A mock up of this app can be found on figma: https://www.figma.com/file/HKntxeaV157WC4tpA02J7r/MUSA611-Midterm?node-id=15%3A
 (varies slightly from actual final project as my idea changed)
 
-color palette https://www.palettable.io/A9D4C3-F39972-136131-04403F-D9A68D
+color palette https://www.palettable.io/A9D4C3-F39972-136131-04403F-D9A68D 
+(also changed slightly) 
 
 
 
